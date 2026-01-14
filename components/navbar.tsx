@@ -33,7 +33,7 @@ export const Navbar = () => {
         >
             <div className="flex items-center justify-between px-8 py-3">
                 <Link href="/" className="font-bold text-lg tracking-tight">
-                    Just0rdinaryGuy<span className="text-primary">.dev</span>
+                     <span className="text-primary">Just0rdinaryGuy</span>
                 </Link>
                 <div className="flex items-center space-x-4">
 

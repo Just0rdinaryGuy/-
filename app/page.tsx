@@ -38,7 +38,7 @@ export default function Home() {
       {/* Technology Section (Simplified) */}
       <section id="technology" className="py-24 bg-zinc-950/50">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold mb-12">Teknologi Modern</h2>
+          <h2 className="text-3xl font-bold mb-12">Teknologi yang digunakan</h2>
           <div className="flex flex-wrap justify-center gap-4 text-zinc-400 font-mono">
             {["Next.js", "React", "Vue.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Shadcn/ui", "Python (FastAPI)", "MongoDB", "Redis", "Docker", "Nginx"].map((tech) => (
               <div key={tech} className="px-4 py-2 border border-zinc-800 rounded-lg hover:border-primary hover:text-white transition-colors cursor-default">
