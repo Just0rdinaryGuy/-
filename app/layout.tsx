@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Excel Prima Bara (Just0rdinaryGuy) - Portofolio",
+  title: "Just0rdinaryGuy - Portofolio",
   description: "Portofolio Junior Developer Professional",
   icons: {
     icon: "https://github.com/favicon.ico",
