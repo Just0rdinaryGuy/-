@@ -8,6 +8,7 @@ export type Project = {
     repositoryUrl?: string;
     demoUrl?: string;
     content?: string; // HTML or simple string for now
+    gallery?: string[];
 }
 
 export const allProjects: Project[] = [

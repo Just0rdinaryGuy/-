@@ -6,7 +6,6 @@ import Link from "next/link";
 import { ArrowLeft, Github, Globe } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { ProjectCarousel } from "@/components/project-carousel";
-import Image from "next/image";
 
 export const generateStaticParams = async () =>
     allProjects.map((project) => ({ slug: project.slug }));
