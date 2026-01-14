@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Excel Prima Bara | Portfolio</title>
+</head>
+
+<body>
+  <!-- Decorative Background Blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <nav class="header">
+    <div class="nav-container">
+      <div class="logo">Excel Prima Bara</div>
+      <button class="mobile-toggle" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a href="#technology" class="nav-link">Technology</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="Resume_2.pdf" class="nav-link btn-resume">Resume</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <div class="intro">
+        <div class="intro-content">
+          <h1 class="t-gradient">Hi, I'm Excel Prima Bara</h1>
+          <span class="subtitle t-white">Junior Developer</span>
+          <p>I build websites, design user interfaces, and I am currently diving deep into learning Python.</p>
+          <div class="cta-group">
+            <a href="#portfolio" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+        <div class="intro-image">
+          <img src="./assets/img/s2.svg" alt="Illustration">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <h2 class="section-title">What I have built</h2>
+      <div class="portfolio-grid">
+        <!-- Project 1 -->
+        <div class="project-card" data-id="1">
+          <div class="project-img">
+            <img src="./assets/img/kelas_full_stack_web_javascript_developer_buildwith_angga.png" alt="Travel Website">
+            <div class="overlay">
+              <button class="btn-view">View Details</button>
+            </div>
+          </div>
+          <div class="project-info">
+            <h2>Website Travel</h2>
+            <p class="short-desc">A modern travel booking platform built with full-stack JavaScript.</p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-id="2">
+          <div class="project-img">
+            <img src="./assets/img/kelas_full_stack_react_native_developer_buildwith_angga.png" alt="Consultation App">
+            <div class="overlay">
+              <button class="btn-view">View Details</button>
+            </div>
+          </div>
+          <div class="project-info">
+            <h2>Consultation App</h2>
+            <p class="short-desc">Mobile application for consultation services using React Native.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="technology">
+    <div class="container">
+      <h2 class="section-title">Technologies I use</h2>
+      <div class="tech-grid">
+        <div class="tech-item" title="HTML5">
+          <img src="./assets/img/html-1.svg" alt="HTML5">
+        </div>
+        <div class="tech-item" title="CSS3">
+          <img src="./assets/img/css-3.svg" alt="CSS3">
+        </div>
+        <div class="tech-item" title="JavaScript">
+          <img src="./assets/img/javascript-1.svg" alt="JavaScript">
+        </div>
+        <div class="tech-item" title="Python">
+          <img src="./assets/img/python-5.svg" alt="Python">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-text">Interested in working together or just want to say hi?</p>
+      <div class="social-links">
+        <a href="#" class="social-link">Email</a>
+        <a href="#" class="social-link">GitHub</a>
+        <a href="#" class="social-link">LinkedIn</a>
+      </div>
+      <div class="copyright">
+        &copy; 2024 Excel Prima Bara. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Modal -->
+  <div class="modal-backdrop" id="projectModal">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <div class="modal-body">
+        <img id="modalImg" src="" alt="">
+        <h2 id="modalTitle"></h2>
+        <p id="modalDesc"></p>
+        <div class="modal-tags" id="modalTags"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
