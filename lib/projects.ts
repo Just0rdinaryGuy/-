@@ -57,6 +57,16 @@ export const allProjects: Project[] = [
         description: "Sistem monitoring fulfillment layanan BGES Regional 6 yang dilengkapi dengan Automated Ticket Routing System untuk distribusi tiket otomatis dan analisis real-time.",
         date: "2024-03-20",
         image: "/assets/img/bges_dashboard.png", // Harap tambahkan gambar ini ke public/assets/img/
+        gallery: [
+            "/assets/img/BGES1.png",
+            "/assets/img/BGES2.png",
+            "/assets/img/BGES3.png",
+            "/assets/img/BGES4.png",
+            "/assets/img/BGES5.png",
+            "/assets/img/BGES6.png",
+            "/assets/img/BGES7.png",
+            "/assets/img/BGES8.png"
+        ],
         tags: ["Python (FastAPI)", "MongoDB", "Redis", "React.js", "Telegram API"],
         // repositoryUrl: "", // Private
         // demoUrl: "", // Private
@@ -113,6 +123,10 @@ export const allProjects: Project[] = [
         description: "Platform silsilah keluarga digital enterprise. Visualisasi pohon keluarga interaktif, pemetaan geografis, dan analisis demografis mendalam.",
         date: "2024-04-10",
         image: "/assets/img/jejak_kita.png", // Harap tambahkan gambar ini ke public/assets/img/
+        gallery: [
+            "/assets/img/jejak-dashboard.png",
+            "/assets/img/jejak-list.png"
+        ],
         tags: ["Vue.js 3", "Python (FastAPI)", "Leaflet.js", "D3.js", "MongoDB"],
         // repositoryUrl: "", // Private
         // demoUrl: "", // Private
