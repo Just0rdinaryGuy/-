@@ -6,7 +6,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function getImagePath(src: string) {
-    const basePath = "/Porto";
+    const basePath = "/-";
     if (src.startsWith("http")) return src;
     if (src.startsWith(basePath)) return src;
     return `${basePath}${src.startsWith("/") ? "" : "/"}${src}`;
