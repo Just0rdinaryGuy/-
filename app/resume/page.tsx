@@ -31,7 +31,7 @@ export default function ResumePage() {
                         style={{
                             position: 'absolute',
                             width: '100%',
-                            height: '100%',
+                            height: 'calc(100% + 35px)', // Push toolbar out of view
                             top: 0,
                             left: 0,
                             border: 'none',
